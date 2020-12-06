@@ -21,14 +21,14 @@
 
 ### ChangeLogs:
 
-#### 2020.12.05(By [White](https://github.com/takoyakiwhite))
+#### 2020.12.05(by [Takoyaki White](https://github.com/takoyakiwhite))
 
 - 屏蔽独显（防止S3下独显启用导致的崩溃）
 - ~~亮度键调节~~
 - 去除无用驱动（I2C等）
 - 去除无用HotPatch（PMC、SBUS等）
 - ~~替换ACPIBatteryManager为VirtualSMC Plugins~~
-- ~~去除NoTouchID（Big Sur下已失效）~~
+- 去除NoTouchID（Big Sur下已失效）
 - 添加Sinetek驱动
 - 添加_PTS _WAK睡眠修补（with Rename）
 - 精简无用Quirk/无用添加项
