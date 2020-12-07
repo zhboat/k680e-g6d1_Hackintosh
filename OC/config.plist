@@ -56,22 +56,6 @@
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-RMCF.aml</string>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
