@@ -56,6 +56,7 @@
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
 			</dict>
+<<<<<<< HEAD
 			<dict>
 				<key>Comment</key>
 				<string></string>
@@ -80,6 +81,8 @@
 				<key>Path</key>
 				<string>SSDT-RMCF.aml</string>
 			</dict>
+=======
+>>>>>>> master
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -111,6 +114,7 @@
 				<key>TableSignature</key>
 				<data></data>
 			</dict>
+<<<<<<< HEAD
 			<dict>
 				<key>Comment</key>
 				<string>_PTS to ZPTS(1,N)</string>
@@ -163,6 +167,8 @@
 				<key>TableSignature</key>
 				<data></data>
 			</dict>
+=======
+>>>>>>> master
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -184,6 +190,11 @@
 		<array/>
 		<key>Quirks</key>
 		<dict>
+<<<<<<< HEAD
+=======
+			<key>AllowRelocationBlock</key>
+			<false/>
+>>>>>>> master
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
@@ -327,6 +338,7 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+<<<<<<< HEAD
 				<string>CPUFriend.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -345,6 +357,8 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+=======
+>>>>>>> master
 				<string>AirportItlwm.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -417,6 +431,7 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+<<<<<<< HEAD
 				<string>CPUFriendDataProvider.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -435,6 +450,8 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+=======
+>>>>>>> master
 				<string>NVMeFix.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -792,6 +809,11 @@
 			<integer>0</integer>
 			<key>AuthRestart</key>
 			<false/>
+<<<<<<< HEAD
+=======
+			<key>BlacklistAppleUpdate</key>
+			<false/>
+>>>>>>> master
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
 			<key>DmgLoading</key>
@@ -830,7 +852,11 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
+<<<<<<< HEAD
 				<string>alcid=29</string>
+=======
+				<string>alcid=29 -v</string>
+>>>>>>> master
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -897,7 +923,11 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
+<<<<<<< HEAD
 			<string>C02721270J9J1JH1H</string>
+=======
+			<string></string>
+>>>>>>> master
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>SystemMemoryStatus</key>
@@ -909,7 +939,11 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,3</string>
 			<key>SystemSerialNumber</key>
+<<<<<<< HEAD
 			<string>C02TRYY4HTD5</string>
+=======
+			<string></string>
+>>>>>>> master
 			<key>SystemUUID</key>
 			<string></string>
 		</dict>
@@ -1057,7 +1091,11 @@
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
+<<<<<<< HEAD
 			<true/>
+=======
+			<false/>
+>>>>>>> master
 			<key>ReleaseUsbOwnership</key>
 			<false/>
 			<key>RequestBootVarRouting</key>
@@ -1071,4 +1109,8 @@
 		<array/>
 	</dict>
 </dict>
+<<<<<<< HEAD
 </plist>
+=======
+</plist>
+>>>>>>> master
