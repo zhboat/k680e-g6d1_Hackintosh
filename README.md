@@ -1,7 +1,5 @@
 ## 神舟k680e-g6d1黑苹果efi
 
-### 配置:
-
 |    硬件    |     型号      |   状态   |
 | :--------: | :-----------: | :------: |
 |    CPU     |    i5-7400    |  已睿频  |
@@ -17,7 +15,7 @@
 ### TODO:
 
 - 修改亮度调节快捷键
-- 修复Intel网卡无法正常睡眠
+- 修复Intel网卡可能导致无法正常睡眠
 
 ### ChangeLogs:
 
@@ -30,7 +28,7 @@
 - ~~替换ACPIBatteryManager为VirtualSMC Plugins~~
 - 去除NoTouchID（Big Sur下已失效）
 - 添加Sinetek驱动
-- 添加_PTS _WAK睡眠修补（with Rename）
+- ~~添加_PTS _WAK睡眠修补（with Rename）~~
 - 精简无用Quirk/无用添加项
 - 添加屏蔽_PRW唤醒
 - 仿冒环境光传感器
@@ -45,3 +43,8 @@
 - 修复启动磁盘判断
 - 去除KEXT崩溃信息
 - 修复音频崩溃问题（Kaby lake）
+
+#### 2020.12.08(By ZHBoat)
+
+- OpenCore更新到0.6.4
+- 更新驱动版本
